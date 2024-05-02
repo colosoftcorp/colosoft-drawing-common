@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{89EFA667-DF49-4E48-B099-51A8D55E6EEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colosoft.Drawing.Common", "src\Colosoft.Drawing.Common\Colosoft.Drawing.Common.csproj", "{0F66AFD7-6596-4E1F-ABF9-64E2EEAD150A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{135A5CDC-54A4-4C48-B626-9F02663221D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colosoft.Drawing.Common.Test", "tests\Colosoft.Drawing.Common.Test\Colosoft.Drawing.Common.Test.csproj", "{298D3DE2-CCD2-40F6-BBD5-86D2C43B35DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F66AFD7-6596-4E1F-ABF9-64E2EEAD150A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F66AFD7-6596-4E1F-ABF9-64E2EEAD150A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F66AFD7-6596-4E1F-ABF9-64E2EEAD150A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F66AFD7-6596-4E1F-ABF9-64E2EEAD150A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298D3DE2-CCD2-40F6-BBD5-86D2C43B35DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298D3DE2-CCD2-40F6-BBD5-86D2C43B35DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298D3DE2-CCD2-40F6-BBD5-86D2C43B35DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298D3DE2-CCD2-40F6-BBD5-86D2C43B35DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F66AFD7-6596-4E1F-ABF9-64E2EEAD150A} = {89EFA667-DF49-4E48-B099-51A8D55E6EEE}
+		{298D3DE2-CCD2-40F6-BBD5-86D2C43B35DB} = {135A5CDC-54A4-4C48-B626-9F02663221D6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {401E5FF4-C994-4155-B26D-EE0595DB1468}
+	EndGlobalSection
+EndGlobal
