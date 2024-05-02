@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-namespace Colosoft.Drawing.Common
+namespace Colosoft.Drawing
 {
     internal class FontMetrics : IFontMetrics
     {

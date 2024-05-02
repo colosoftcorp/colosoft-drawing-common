@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Colosoft.Drawing.Common
+namespace Colosoft.Drawing
 {
     public class FontMetricsProvider : IFontMetricsProvider
     {
